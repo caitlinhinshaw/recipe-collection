@@ -10,6 +10,10 @@ body {
     font-size: 12px;
     line-height: 16px;
 }
+h1, h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 /*** Header Styles ***/
 
@@ -24,8 +28,6 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     color: #F16059;
     font-size: 48px;
-    font-weight: bold;
-    text-transform: uppercase;
 }
 header img {
     margin-right: 20px;
@@ -60,4 +62,40 @@ header img {
 #salad .image {
 	background-image: url("../img/watermelon-salad.jpg");
 	background-size: cover;
+}
+.recipe h2 {
+    margin-top: 0;
+    color: #F16059;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'Montserrat', sans-serif;
+}
+.time {
+    margin-bottom: 20px;
+    border: solid 1px #3B3B3B;
+    overflow: auto;
+}
+.time div {
+    float: left;
+    padding-left: 6px;
+    width: 33.3333%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+.time .cook {
+    border-width: 0 1px;
+	border-style: solid;
+	border-color: #3B3B3B;
+}
+.time img {
+	margin-right: 5px;
+	vertical-align: middle;
+	width: 15px;
+	height: auto;
+}
+.time-details {
+	display: inline-block;
+}
+.time strong {
+	font-family: 'Montserrat', sans-serif;
 }
