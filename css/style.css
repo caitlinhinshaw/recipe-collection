@@ -17,7 +17,6 @@ header {
     background-color: white;
     text-align: center;
 }
-
 h1 {
     display: inline-block;
     margin: 0px;
@@ -28,7 +27,26 @@ h1 {
     font-weight: bold;
     text-transform: uppercase;
 }
-
 header img {
     margin-right: 20px;
+}
+
+/*** Card Styles ***/
+.card {
+    margin: 25px 0px;
+    overflow: auto;
+}
+.image {
+    float: left;
+    width: 500px;
+    height: 550px;
+}
+
+.recipe {
+    float: left;
+	padding: 20px;
+	width: 500px;
+	height: 550px;
+	background: white;
+	box-sizing: border-box;
 }
