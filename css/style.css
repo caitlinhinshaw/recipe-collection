@@ -5,3 +5,8 @@ body {
     font-size: 12px;
     line-height 16px;
 }
+
+header {
+    background-color: white;
+    text-align: center;
+}
